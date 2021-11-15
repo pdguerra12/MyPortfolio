@@ -82,6 +82,17 @@ header nav ul li a {
     display: flex;
 }
 
+.run-buddy{
+    text-align:center;
+    margin:50px auto; 
+}
+.run-buddy a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:var(--primary-color)
+}
+
 .section-title {
     font-size: 48px;
     color: var(--secondary-color);
@@ -107,14 +118,10 @@ address a {
     color: var(--secondary-color);
 }
 
-
-
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header, address a {
     padding-bottom: 0;
     justify-content: center;
-    /* adding the position: relative element it reverts the sticky header back to what it was before */
     position: relative;
     }
 
@@ -138,18 +145,15 @@ address a {
     }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
 
     section {
         padding: 30px 15px;
     }
-
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-
+    
     .section-title {
         width: 95%;
     }
