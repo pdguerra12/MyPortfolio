@@ -8,7 +8,7 @@ To showcase my work, and what I've learned to potential employers.
 * CSS
 
 ## Website
-https://github.com/pdguerra12/MyPortfolio.git
+https://pdguerra12.github.io/MyPortfolio/
 
 ## Contribution
 Made by Paul Guerra
