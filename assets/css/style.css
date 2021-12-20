@@ -1,164 +1,193 @@
 :root {
-    --primary-color: #d8dde1;
-    --secondary-color: #296799;
-    --tertiary-color: #55cde6;
-    --quaternary-color: #48998F;
+	--primary-color: #d8dde1;
+	--secondary-color: #296799;
+	--tertiary-color: #55cde6;
+	--quaternary-color: #48998f;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    color: var(--quaternary-color);
-    font-family: Arial, Helvetica, sans-serif;
+	color: var(--quaternary-color);
+	font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url("../images/web-dev.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
+	padding: 20px 35px;
+	background-color: var(--tertiary-color);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-image: url("../images/web-dev.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-position: 80%;
+	z-index: 9999;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--primary-color);
-    margin: 0;
+	font-weight: bold;
+	font-size: 36px;
+	color: var(--primary-color);
+	margin: 0;
 }
 
 header a {
-    text-decoration: none;
-    color: var(--primary-color);
+	text-decoration: none;
+	color: var(--primary-color);
 }
 
 header nav {
-    margin: 7px 0;
+	margin: 7px 0;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
+	padding: 10px 15px;
+	font-weight: lighter;
+	font-size: 1.55vw;
+}
+
+.intro {
+	margin: 50px;
 }
 
 .intro p {
-    line-height: 1.7;
-    color: var(--secondary-color);
-    width: 80%;
-    font-size: 20px;
-    margin: 25px auto;
-    text-align: center;
+	line-height: 1.7;
+	color: var(--secondary-color);
+	width: 80%;
+	font-size: 20px;
+	margin: 20px auto;
+	text-align: center;
 }
 
 .intro img {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 20%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 20%;
 }
 
 .flex-row {
-    display: flex;
+	display: flex;
 }
 
-.run-buddy{
-    text-align:center;
-    margin:50px auto; 
+.portfolio {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-.run-buddy a{
-    margin:0px 20px;
-    display:inline-block;
-    text-decoration:none;
-    color:var(--primary-color)
+
+.page {
+	margin: 20px;
+	flex: 1;
+}
+
+.page p a img {
+	width: 100%;
+	height: 100%;
+}
+
+.page-title {
+	padding: 10px;
+	text-align: center;
+}
+
+.run-buddy {
+	text-align: center;
+	margin: 50px auto;
+}
+.run-buddy a {
+	margin: 0px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: var(--primary-color);
 }
 
 .section-title {
-    font-size: 48px;
-    color: var(--secondary-color);
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+	font-size: 48px;
+	color: var(--secondary-color);
+	border-bottom: 3px solid;
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 0 auto 35px auto;
+	width: 50%;
 }
 
 .principle-border {
-    border-color: var(--primary-color);
+	border-color: var(--primary-color);
 }
 
 address a {
-    padding: 10px 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    font-size: 1.55vw;
-    color: var(--secondary-color);
+	padding: 10px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	font-size: 1.55vw;
+	color: var(--secondary-color);
 }
 
 @media screen and (max-width: 980px) {
-    header, address a {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-    }
+	header,
+	address a {
+		padding-bottom: 0;
+		justify-content: center;
+		position: relative;
+	}
 
-    header h1, address a {
-        width: 100%;
-        text-align: center;
-    }
+	header h1,
+	address a {
+		width: 100%;
+		text-align: center;
+	}
 
-    header nav ul, address a {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
+	header nav ul,
+	address a {
+		margin-top: 20px;
+		width: 100%;
+		justify-content: center;
+	}
 
-    header nav ul li a, address a {
-        font-size: 20px;
-    }
+	header nav ul li a,
+	address a {
+		font-size: 20px;
+	}
 
-    .section-title {
-        width: 80%;
-    }
+	.section-title {
+		width: 80%;
+	}
 }
 
 @media screen and (max-width: 768px) {
-
-    section {
-        padding: 30px 15px;
-    }
+	section {
+		padding: 30px 15px;
+	}
 }
 
 @media screen and (max-width: 575px) {
-    
-    .section-title {
-        width: 95%;
-    }
+	.section-title {
+		width: 95%;
+	}
 
-    .intro p {
-        width: 100%;
-    }
+	.intro p {
+		width: 100%;
+	}
 }
