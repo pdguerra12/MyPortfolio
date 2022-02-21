@@ -13,7 +13,7 @@ To showcase my work, and what I've learned to potential employers.
 
 ## https://pdguerra12.github.io/MyPortfolio/
 
-![Portfolio Image](https://user-images.githubusercontent.com/92958186/146812527-d353e0e4-8e5d-494c-82b9-5c9dd97f171f.png)
+![Portfolio Image](https://user-images.githubusercontent.com/92958186/154892236-9b113336-9b75-42fb-8045-ee7eac23ca98.png)
 
 ## Contribution
 
